@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+body{
+    background-color: black;
+    width: 100%;
+    background-image: url("background.jpeg");
+}
+header{
+    text-align: center;
+    padding: 30px 0px;
+    border: 2PX red solid;
+    border-top: 0PX red solid;
+    position:fixed;
+    top:0;
+    width: 80%;
+    background: radial-gradient(circle, #000000 0%, rgba(0, 0, 0, 0.719) 100%);
+    margin-left: 10%;
+}
+.main_buttons{
+    background-color: darkred;
+    color: white;
+    margin: 20px 20px 5px 20px;
+    height: 50px;
+    line-height: 50px;
+    border: gray 1px solid;
+}
+.main_buttons :hover {
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
+#barrier{
+    height: 174px;
+}
+main{
+    float: left;
+    width: 60%;
+    background: radial-gradient(circle, #000000 0%, rgba(0, 0, 0, 0.719) 100%);
+    text-align: center;
+    padding: 30px 0px;
+    border: 2PX red solid;
+    border-top: 0PX red solid;
+    margin-left: 20%;
+}
+
+table, th, td {
+    border: white solid 2px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom right, rgb(1, 46, 1), green);
+}
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
